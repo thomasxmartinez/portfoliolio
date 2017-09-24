@@ -363,19 +363,72 @@ div#navbar-menu-collapse {
   color: #99be62;
 }
 
-#img-circle {
-  /*margin-top: 1%;*/
-  /*float: left;*/
-  /*z-index: 1;*/
-  margin-left: 1%;
-  border-radius: 50%;
-  display: grid;
-  width: 8em;
-  height: 8em;
+.section-founders {
+  display: block;
+  overflow: hidden;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.w-container .w-row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.col-founders {
+  padding: 0px;
+  text-align: center;
+}
+.img-circle.joel {
+  background-image: url(../img/joel.png);
+  /*border-radius: 50%;*/
+  background-position: 50% 100%;
+  /*background-size: 200px;*/
+  width: 100px;
+  height: 100px;
+}
+.img-circle.jeff {
+  background-image: url(../img/jeff.jpg);
+  /*border-radius: 50%;*/
+  background-position: 50% 100%;
+  /*background-size: 200px;*/
+  width: 100px;
+  height: 100px;
+}
+.img-circle.tommy {
+  background-image: url(../img/tommy.jpg);
+  /*border-radius: 50%;*/
+  background-position: 50% 100%;
+  /*background-size: 200px;*/
+  width: 100px;
+  height: 100px;
+}
+
+.img-circle {
+  margin-top: 0px;
+  padding: 100px;
+  /*background-image: url(../images/founders_doug.png);*/
+  background-position: 50% 100%;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+.text-founders {
+  margin-right: 45%;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+.text-founders-green {
+  margin-right: 45%;
+  color: #81a846;
+  font-weight: 500;
+  text-align: center;
 }
 
 .graphic h4 {
-  color: #db7011;
+  color: #81a846;
   font-weight: bold;
   margin-bottom: 15px;
   font-family: Raleway;
@@ -415,7 +468,7 @@ div#skills {
 }
 
 .skillbar-bar1 {
-  background: #db7011;
+  background: #81a846;
 }
 
 .skillbar-bar2 {
@@ -524,7 +577,7 @@ ul.filters {
 .filters li.active,
 .filters li:hover,
 .filters li:focus {
-  border-bottom: 3px solid #db7011;
+  border-bottom: 3px solid #81a846;
   box-shadow: none;
   color: #afafaf;
   transition: all ease-in-out 0.5s;
@@ -656,7 +709,7 @@ ul.filters {
 }
 
 .portflio-modal .modal-body h3 {
-  color: #db7011;
+  color: #81a846;
 }
 
 .portflio-modal .modal-body p {
@@ -666,8 +719,8 @@ ul.filters {
 .portflio-modal .modal-body button {
   font-size: 14px;
   color: #25232e;
-  background: #db7011;
-  border: 1px solid #db7011;
+  background: #81a846;
+  border: 1px solid #81a846;
   transition: all ease-in-out 0.5s;
   width: 100%;
   height: 50px;
@@ -676,9 +729,9 @@ ul.filters {
 }
 
 .portflio-modal .modal-body button:hover {
-  color: #db7011;
+  color: #81a846;
   background: transparent;
-  border: 1px solid #db7011;
+  border: 1px solid #81a846;
   transition: all ease-in-out 0.5s;
 }
 
@@ -740,7 +793,7 @@ ul.filters {
 }
 
 .graph-des img {
-  background: #db7011;
+  background: #81a846;
 }
 
 .web-des img {
@@ -756,7 +809,7 @@ ul.filters {
 }
 
 .graph-des h5 {
-  color: #db7011;
+  color: #81a846;
 }
 
 .web-des h5 {
@@ -800,7 +853,7 @@ ul.filters {
 }
 
 .planning img {
-  background: #db7011;
+  background: #81a846;
 }
 
 .create img {
@@ -816,7 +869,7 @@ ul.filters {
 }
 
 .planning h5 {
-  color: #db7011;
+  color: #81a846;
 }
 
 .create h5 {

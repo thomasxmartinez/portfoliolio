@@ -314,28 +314,27 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
-      /****************scroll to top*****************/
-      'use script';
-      var toTop = jQuery('.to_top');
-      toTop.on("click", function(){
-        jQuery("html, body").animate({ scrollTop: 0 }, 600);
-        return false;
-      });
+    /****************scroll to top*****************/
+'use script';
+var toTop = jQuery('.to_top');
+toTop.on('click', function() {
+  jQuery('html, body').animate({ scrollTop: 0 }, 600);
+  return false;
+});
 
-      /*********show/hide reply form**********/
-        $('#show-form1').click(function() {
-          $('.reply-form1').toggle(100);
-        });
-        $('#show-form2').click(function() {
-          $('.reply-form2').toggle(100);
-        });
-        $('#show-form3').click(function() {
-          $('.reply-form2').toggle(100);
-        });
-        $('#show-form4').click(function() {
-          $('.reply-form4').toggle(100);
-        });
-
-    </script>
+/*********show/hide reply form**********/
+$('#show-form1').click(function() {
+  $('.reply-form1').toggle(100);
+});
+$('#show-form2').click(function() {
+  $('.reply-form2').toggle(100);
+});
+$('#show-form3').click(function() {
+  $('.reply-form2').toggle(100);
+});
+$('#show-form4').click(function() {
+  $('.reply-form4').toggle(100);
+});
+</script>
   </body>
 </html>
